@@ -50,10 +50,6 @@
                      and how digital tools can be used to solve real problems.
                 </p>
                 <p>
-                    I am still early in my learning journey, so I focus on developing practical skills by studying, 
-                    experimenting with small projects, and trying to understand how digital businesses work in practice.
-                </p>
-                <p>
                     Outside academics, I enjoy playing table tennis and running. Sports have helped me develop discipline,
                      consistency, and the habit of showing up regularly.
                 </p>
@@ -195,30 +191,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.12.0/tsparticles.bundle.min.js"></script>
     <script src="script.js"></script>
 
-    <script>
-        // 1. Define the settings once
-const constellationConfig = {
+<script>
+    //constellation ka code
+    const constellationConfig = {
 
-    particles: {
-        number: { value: 60 },
-        links: {
-            enable: true,
-            distance: 150,
-            color: "#ffffff",
-            opacity: 0.4
-        },
-        move: { enable: true, speed: {min: 0.3, max: 0.4} },
-        size: {
-            value: {min: 0.6, max: 2}
+        particles: {
+            number: { value: 60 },
+            links: {
+                enable: true,
+                distance: 150,
+                color: "#ffffff",
+                opacity: 0.4
+            },
+            move: { enable: true, speed: {min: 0.3, max: 0.4} },
+            size: {
+                value: {min: 0.6, max: 2}
+            }
         }
-    }
-};
-
-// 2. Load it into the first section
-tsParticles.load("tsparticles-1", constellationConfig);
-
-// 3. Load it into the third section
-tsParticles.load("tsparticles-2", constellationConfig);
+    };
+        tsParticles.load("tsparticles-1", constellationConfig);
+        tsParticles.load("tsparticles-2", constellationConfig);
     </script>
 </body>
 </html>
